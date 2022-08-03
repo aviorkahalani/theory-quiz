@@ -61,12 +61,12 @@ function showGameOver(isWin = true) {
   if (isWin)
     strHTML = `
     <h1>כל הכבוד, עברת את המבחן!</h1>
-    <img src="./../assets/win.gif" alt="#" />
+    <img src="https://res.cloudinary.com/avior-projects/image/upload/v1659532593/giphy_lkdpha.gif" alt="#" />
   `
   else
     strHTML = `
     <h1>תמיד אפשר לרפרש ולהתחיל מחדש :)</h1>
-    <img src="./../assets/lose.gif" alt="#" />
+    <img src="https://res.cloudinary.com/avior-projects/image/upload/v1659532491/lose_gmtfhz.gif" alt="#" />
   `
   const elFinalPage = document.querySelector('.page-final')
   elFinalPage.innerHTML = strHTML
