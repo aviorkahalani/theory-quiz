@@ -61,12 +61,12 @@ function showGameOver(isWin = true) {
   if (isWin)
     strHTML = `
     <h1>כל הכבוד, עברת את המבחן!</h1>
-    <img src="../assets/win.gif" alt="#" />
+    <img src="./../assets/win.gif" alt="#" />
   `
   else
     strHTML = `
     <h1>תמיד אפשר לרפרש ולהתחיל מחדש :)</h1>
-    <img src="../assets/lose.gif" alt="#" />
+    <img src="./../assets/lose.gif" alt="#" />
   `
   const elFinalPage = document.querySelector('.page-final')
   elFinalPage.innerHTML = strHTML
