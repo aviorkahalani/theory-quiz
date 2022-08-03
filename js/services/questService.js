@@ -51,7 +51,7 @@ function _createQuests() {
         'אעבור ואחכה שבועיים לראות אם יש דוח',
         'אחכה בסבלנות עד שהרמזור יתחלף לירוק ואמשיך בדרכי',
       ],
-      correctAnswerIdx: 0,
+      correctAnswerIdx: 1,
     },
     {
       _id: utilService.makeId(),
